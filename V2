@@ -12,7 +12,7 @@
 	| This script WILL cause FPS drops, because of BodyParts/Clothes meshes inside the Player model
 	
 	| 𝐔𝐒𝐄 𝐀𝐓 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊
-		  | 𝐖𝐎𝐑𝐊 𝐈𝐍 𝐏𝐑𝐎𝐆𝐑𝐄𝐒𝐒
+	| 𝐖𝐎𝐑𝐊 𝐈𝐍 𝐏𝐑𝐎𝐆𝐑𝐄𝐒𝐒
 	
 	The original developer of RoClothes is no longer working on this script.
 	This is a MODDED version of this script that might or might not be updated.
@@ -26,9 +26,11 @@
 
  ]]
 
-local PS = game:GetService(“Players”) local RS =
-game:GetService(“RunService”) local HS = game:GetService(“HttpService”)
-local UIS = game:GetService(“UserInputService”) KEYBIND = Enum.KeyCode.P
+local PS = game:GetService(“Players”) 
+local RS = game:GetService(“RunService”) 
+local HS = game:GetService(“HttpService”)
+local UIS = game:GetService(“UserInputService”) 
+KEYBIND = Enum.KeyCode.P
 
 function RoClothes(Player) print(“RoCC”)
 
